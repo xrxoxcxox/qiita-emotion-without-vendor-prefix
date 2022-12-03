@@ -5,7 +5,7 @@ import './index.css'
 import { CacheProvider } from '@emotion/react'
 import createCache from '@emotion/cache'
 
-export const myCache = createCache({
+const myCache = createCache({
   key: 'css',
   stylisPlugins: [],
 })
